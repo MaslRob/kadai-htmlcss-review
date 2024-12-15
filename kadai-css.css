@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
+body{
+    position: fixed;
+    margin: 0;
+}
+
 header {
     width: 1000px;
-    margin: 0;
     background-color:  #ffcccc;
  }
 
 #wrapper{
-    position: fixed;
     width: 1000;
-    margin: 0 auto;
     display: flex;
 }
 
@@ -24,7 +26,5 @@ header {
  }
 
  footer{
-    width: 1000px;
-    margin: 0;
     background-color: #ffccff;
  }
